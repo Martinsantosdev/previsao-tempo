@@ -1,4 +1,4 @@
-# 🌤️ Weather App
+# 🌤️ Weather App - Previsão do Tempo
 
 Aplicação web de previsão do tempo desenvolvida com HTML, CSS e JavaScript, consumindo API em tempo real, focada em performance, responsividade e experiência do usuário.
 
@@ -24,4 +24,4 @@ Aplicação web de previsão do tempo desenvolvida com HTML, CSS e JavaScript, c
 ### ▶️ Rodando o projeto
 1. Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/seu-repo.git
+git clone https://github.com/Martinsantosdev/previsao-tempo.git
