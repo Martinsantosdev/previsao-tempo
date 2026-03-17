@@ -1,0 +1,107 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Open Sans', sans-serif;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background-image:url("https://www.sourcesplash.com/i/random?q=weather");
+    background-size:cover;
+    background-position:center;
+}
+
+/* caixa principal */
+.caixa-maior{
+    background:rgba(0,0,0,0.55);
+    backdrop-filter:blur(10px);
+    border-radius:20px;
+    padding:30px;
+    width:95%;
+    max-width:420px;
+
+    box-shadow:0 10px 40px rgba(0,0,0,0.4);
+}
+
+/* input cidade */
+.input-cidade{
+    border:none;
+    outline:none;
+    padding:12px 18px;
+    border-radius:25px;
+    font-size:16px;
+
+    background:rgba(255,255,255,0.15);
+    color:white;
+
+    width:calc(100% - 60px);
+}
+
+/* botão busca */
+.botao-busca{
+    border:none;
+    outline:none;
+    padding:10px;
+    border-radius:50%;
+    background:rgba(255,255,255,0.2);
+
+    cursor:pointer;
+    float:right;
+
+    transition:0.3s;
+}
+
+.botao-busca:hover{
+    background:rgba(255,255,255,0.35);
+    transform:scale(1.05);
+}
+
+.img-busca{
+    width:22px;
+}
+
+/* caixa do meio */
+.caixa-media{
+    margin-top:30px;
+}
+
+/* cidade */
+.cidade{
+    color:#ffffff;
+    font-size:28px;
+    font-weight:600;
+}
+
+/* temperatura */
+.temp{
+    font-size:48px;
+    color:#ffffff;
+    margin-top:15px;
+    font-weight:300;
+}
+
+/* linha clima */
+.caixa-menor{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin-top:20px;
+}
+
+.texto-previsao{
+    color:#ffffff;
+    text-transform:capitalize;
+}
+
+/* infos extras */
+.Umidade,
+.Vento{
+    color:#e5e5e5;
+    margin-top:12px;
+    font-size:15px;
+}
